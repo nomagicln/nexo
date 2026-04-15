@@ -32,7 +32,9 @@ migrate_working_dir/
 .pub/
 /build/
 /coverage/
-macos/Flutter/
+
+# macOS Flutter (keep xcconfig + registrant, ignore ephemeral)
+macos/Flutter/ephemeral/
 
 # Symbolication related
 app.*.symbols
